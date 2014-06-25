@@ -6,9 +6,13 @@
     <script type="text/javascript">
         console.log("Hello");
 
+        var myGlobalVar = "apples";
+
         function myFunc(name, weather) {
+            var myLocalVar = "day";
             console.log("Hello " + name + ".");
             console.log("It is " + weather + " today");
+            console.log("Have a nice " + myLocalVar + ".");
 
         }
 
@@ -23,13 +27,17 @@
 
         var variable1 = function sayHello() {
             console.log("Hello!");
-        }
+        };
 
         var variable2 = "Goodbye!";
 
         myFunc("Adam", "sunny");
         printMessage(variable1);
         printMessage(variable2);
+    </script>
+
+    <script type="text/javascript">
+        console.log("I like " + myGlobalVar);
     </script>
 </head>
 <body>
