@@ -95,6 +95,17 @@
         console.log("Hello " + myData.name + ".");
         console.log("It is " + myData["weather"]);
 
+        // Enumerating properties
+        for (var prop in myData) {
+            console.log("Name: " + prop + "Value" + myData[prop]);
+        }
+
+        console.log("---");
+
+        angular.forEach(myData, function(value, key) {
+            console.log("Name: " + key + " Value" + value);
+        });
+
 
     </script>
 </head>
