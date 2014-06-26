@@ -12,7 +12,9 @@
 
         myApp.controller("demoCtrl", function ($scope, $http) {
             $http.get("todo.json").then(function (response) {
-                $scope.todos = response.data;
+                var jsonString = angular.toJson(response);
+                console.log(jsonString);
+                $scope.todos = response.data; // angular.fromJson(jsonString);
             }, function () {
                 $scope.todos = [
                     {action: "Error"}
