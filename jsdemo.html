@@ -235,6 +235,28 @@
             console.log(key + ": " + value);
         });
 
+        myData = {
+            name: "Adam",
+            city: null
+        };
+
+        // Null or undefined
+        if(!myData.name) {
+            console.log("name IS null or undefined");
+        } else {
+            console.log("name is NOT null or undefined");
+        }
+
+        if(!myData.city) {
+            console.log("name IS null or undefined");
+        } else {
+            console.log("name is NOT null or undefined");
+        }
+
+        console.log("name: " + angular.isDefined(myData.name));
+        console.log("city: " + angular.isDefined(myData.city));
+        console.log("country: " + angular.isDefined(myData.country));
+
     </script>
 </head>
 <body>
