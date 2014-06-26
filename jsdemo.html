@@ -18,7 +18,7 @@
 
         function printMessage(unknownObject) {
             // Detect if object is a function
-            if(angular.isFunction(unknownObject)) {
+            if (angular.isFunction(unknownObject)) {
                 unknownObject();
             } else {
                 console.log(unknownObject);
@@ -38,6 +38,42 @@
 
     <script type="text/javascript">
         console.log("I like " + myGlobalVar);
+
+        // String functions
+        console.log(angular.isString("Hello") + " " + angular.isArray(23));
+        console.log("I am " + angular.uppercase("shouting"));
+        console.log("I am " + angular.lowercase("WhiSpeRing"));
+
+        var daysInWeek = 7;
+        var pi = 3.14;
+        var hexValue = 0xFFFF;
+
+        // Number functions
+        console.log(angular.isNumber(7) + " " + angular.isNumber("Hello"));
+
+        // Objects
+        //noinspection JSPrimitiveTypeWrapperUsage
+        var myData = new Object();
+        myData.name = "Adam";
+        myData.weather = "sunny";
+
+        console.log("Hello " + myData.name + ". ");
+        console.log("Today is " + myData.weather + ".");
+
+        // Object Literal
+
+        myData = {
+            name: "Adam",
+            weather: "sunny",
+            // method
+            printMessages: function () {
+                console.log("Hello " + myData.name + ". ");
+                console.log("Today is " + myData.weather + ".");
+            }
+        };
+
+        myData.printMessages();
+
     </script>
 </head>
 <body>
