@@ -112,6 +112,15 @@
         delete myData["weather"];
         delete myData.printMessages;
 
+        myData.name = "Satriani";
+
+        // Check if property exists
+        var hasName = "name" in myData;
+        var hasDate = "date" in myData;
+
+        console.log("HasName: " + hasName);
+        console.log("HasDate: " + hasDate);
+
 
     </script>
 </head>
