@@ -69,8 +69,8 @@
       <file leaf-file-name="jsdemo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsdemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7517564" vertical-offset="3515" max-vertical-offset="3942">
-              <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.45199063" vertical-offset="4055" max-vertical-offset="4482">
+              <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -731,7 +731,7 @@
       <workItem from="1403712854622" duration="286000" />
       <workItem from="1403713205031" duration="6254000" />
       <workItem from="1403740316350" duration="4750000" />
-      <workItem from="1403787403963" duration="3653000" />
+      <workItem from="1403787403963" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1403706067667</created>
@@ -781,11 +781,15 @@
       <created>1403801876087</created>
       <updated>1403801876087</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Converting - Listing 5-31.">
+      <created>1403803090222</created>
+      <updated>1403803090222</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17441000" />
+    <option name="totallyTimeSpent" value="19801000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -890,7 +894,8 @@
     <MESSAGE value="Determining Whether an Object Has a Property - Listing 5-23." />
     <MESSAGE value="Operators and conditional statements - Listing 5-25." />
     <MESSAGE value="Equality vs Identity - Listing 5-28." />
-    <option name="LAST_COMMIT_MESSAGE" value="Equality vs Identity - Listing 5-28." />
+    <MESSAGE value="Converting - Listing 5-31." />
+    <option name="LAST_COMMIT_MESSAGE" value="Converting - Listing 5-31." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -966,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsdemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7517564" vertical-offset="3515" max-vertical-offset="3942">
-          <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.45199063" vertical-offset="4055" max-vertical-offset="4482">
+          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -204,6 +204,36 @@
 
         console.log("Result: " + result);
 
+        // Arrays
+
+        //noinspection JSPrimitiveTypeWrapperUsage
+        var myArray = new Array();
+        myArray[0] = 100;
+        myArray[1] = "Adam";
+        myArray[2] = true;
+
+        // literal
+        myArray = [100, "Adam", true];
+
+        // Detecting arrays
+        console.log(angular.isArray([100, "Adam", true]));
+        console.log(angular.isArray("Adam"));
+        console.log(angular.isArray(23));
+
+        console.log("Index 0: " + myArray[0]);
+        myArray[0] = "Tuesday";
+        console.log("Index 0: " + myArray[0]);
+
+        // Enumerating contents of an Array
+        for (var i = 0; i < myArray.length; i++) {
+            console.log("Index " + i + ": " + myArray[i]);
+        }
+
+        console.log("---");
+
+        angular.forEach(myArray, function (value, key) {
+            console.log(key + ": " + value);
+        });
 
     </script>
 </head>
