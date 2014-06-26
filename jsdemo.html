@@ -97,6 +97,7 @@
 
         // Enumerating properties
         for (var prop in myData) {
+            //noinspection JSUnfilteredForInLoop
             console.log("Name: " + prop + "Value" + myData[prop]);
         }
 
@@ -105,6 +106,11 @@
         angular.forEach(myData, function(value, key) {
             console.log("Name: " + key + " Value" + value);
         });
+
+        // Deleting properties
+        delete myData.name;
+        delete myData["weather"];
+        delete myData.printMessages;
 
 
     </script>
