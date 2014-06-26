@@ -84,6 +84,18 @@
         myExtendedObject.printMessages();
         console.log(myExtendedObject.city);
 
+        console.log("myData: " + angular.isObject(myData));  // true
+        console.log("myName: " + angular.isObject(myData.name)); // false
+        console.log("printMessages: " + angular.isObject(myData.printMessages)); // false
+
+        // Accessors and mutators
+        myData.name = "Joe";
+        myData["weather"] = "raining";
+
+        console.log("Hello " + myData.name + ".");
+        console.log("It is " + myData["weather"]);
+
+
     </script>
 </head>
 <body>
