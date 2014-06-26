@@ -103,7 +103,7 @@
 
         console.log("---");
 
-        angular.forEach(myData, function(value, key) {
+        angular.forEach(myData, function (value, key) {
             console.log("Name: " + key + " Value" + value);
         });
 
@@ -120,6 +120,36 @@
 
         console.log("HasName: " + hasName);
         console.log("HasDate: " + hasDate);
+
+        // Operators
+        /*
+
+         ++, --        Pre- or post-increment and decrement
+         +, -, *, /, % Addition, subtraction, multiplication, division, remainder
+         <, <=, >, >=  Less than, less than or equal to, more than, more than or equal to
+         ==, !=        Equality and inequality tests
+         ===, !==      Identity and nonidentity tests
+         &&, ||        Logical AND and OR (|| is used to coalesce null values)
+         =             Assignment
+         +             String concatenation
+         ?:            Three operand conditional statement
+
+        */
+
+        // Switch statements
+        var name = "Adam";
+        switch (name) {
+            case "Adam":
+                console.log("Name is Adam");
+                break;
+            case "Jacqui":
+                console.log("Name is Jacqui");
+                break;
+            default:
+                console.log("Name is neither Adam or Jacqui");
+                break;
+        }
+
 
 
     </script>
