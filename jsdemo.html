@@ -128,7 +128,7 @@
          +, -, *, /, % Addition, subtraction, multiplication, division, remainder
          <, <=, >, >=  Less than, less than or equal to, more than, more than or equal to
          ==, !=        Equality and inequality tests
-         ===, !==      Identity and nonidentity tests
+         ===, !==      Identity and non-identity tests
          &&, ||        Logical AND and OR (|| is used to coalesce null values)
          =             Assignment
          +             String concatenation
@@ -150,8 +150,8 @@
                 break;
         }
 
-        var firstVal = 5;
-        var secondVal = "5";
+        firstVal = 5;
+        secondVal = "5";
 
         // Equality operator
         if (firstVal == secondVal) {
@@ -167,14 +167,14 @@
             console.log("They are NOT the same");
         }
 
-        var myData1 = {
+        myData1 = {
             name: "Adam",
-            weather: "sunny",
+            weather: "sunny"
         };
 
-        var myData2 = {
+        myData2 = {
             name: "Adam",
-            weather: "sunny",
+            weather: "sunny"
         };
 
         var myData3 = myData2;
@@ -186,6 +186,25 @@
 
         console.log("Test 1: " + test1 + " Test 2: " + test2);
         console.log("Test 3: " + test3 + " Test 4: " + test4);
+
+        // Implicit conversion
+        myData1 = 5 + 5;
+        myData2 = 5 + "5";
+        console.log("Result 1: " + myData1);
+        console.log("Result 2: " + myData2);
+
+        // Explicit conversion
+        var myData1 = (5).toString() + String(5);
+        console.log("Result: " + myData1);
+
+        var firstVal = "5";
+        var secondVal = "5";
+
+        var result = Number(firstVal) + Number(secondVal);
+
+        console.log("Result: " + result);
+
+
     </script>
 </head>
 <body>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12530c0d-a3b4-4494-8bb3-923b16124c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsdemo.html" afterPath="$PROJECT_DIR$/jsdemo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,8 +69,8 @@
       <file leaf-file-name="jsdemo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsdemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8735363" vertical-offset="2993" max-vertical-offset="3600">
-              <caret line="187" column="62" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
+            <state vertical-scroll-proportion="-2.7517564" vertical-offset="3515" max-vertical-offset="3942">
+              <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -732,7 +731,7 @@
       <workItem from="1403712854622" duration="286000" />
       <workItem from="1403713205031" duration="6254000" />
       <workItem from="1403740316350" duration="4750000" />
-      <workItem from="1403787403963" duration="2415000" />
+      <workItem from="1403787403963" duration="3653000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1403706067667</created>
@@ -778,11 +777,15 @@
       <created>1403801152231</created>
       <updated>1403801152231</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Equality vs Identity - Listing 5-28.">
+      <created>1403801876087</created>
+      <updated>1403801876087</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16203000" />
+    <option name="totallyTimeSpent" value="17441000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -822,7 +825,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25382933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25382933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -886,7 +889,8 @@
     <MESSAGE value="Deleting Properties - Listing 5-22." />
     <MESSAGE value="Determining Whether an Object Has a Property - Listing 5-23." />
     <MESSAGE value="Operators and conditional statements - Listing 5-25." />
-    <option name="LAST_COMMIT_MESSAGE" value="Operators and conditional statements - Listing 5-25." />
+    <MESSAGE value="Equality vs Identity - Listing 5-28." />
+    <option name="LAST_COMMIT_MESSAGE" value="Equality vs Identity - Listing 5-28." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -962,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsdemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8735363" vertical-offset="2993" max-vertical-offset="3600">
-          <caret line="187" column="62" selection-start-line="187" selection-start-column="62" selection-end-line="187" selection-end-column="62" />
+        <state vertical-scroll-proportion="-2.7517564" vertical-offset="3515" max-vertical-offset="3942">
+          <caret line="130" column="40" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
           <folding />
         </state>
       </provider>
